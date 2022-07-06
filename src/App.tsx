@@ -42,7 +42,7 @@ const handleBackButton = () =>{
           disabled={toShow ? true : false}
           />
 
-          <input type="number" placeholder="Digite sua Data de Nascimento Ex.: (27/02/2000)" value={dataField > 0 ? dataField : ''} onChange={e => setDataField(parseFloat(e.target.value))}
+          <input type="number" placeholder="Digite seu Ano de Nascimento" value={dataField > 0 ? dataField : ''} onChange={e => setDataField(parseFloat(e.target.value))}
           disabled={toShow ? true : false}
           />
 
